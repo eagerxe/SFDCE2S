@@ -1,0 +1,617 @@
+<com.cloudco.sfdc.objects.Integracion>
+  <username></username>
+    <password></password>
+    <token></token>
+    <objectName></objectName>
+	<externalId></externalId>
+	<batchSize>200</batchSize>
+	
+	<rutaPendientes>ArchivosCarga\</rutaPendientes>
+    <prefijoArchivo>AC</prefijoArchivo>
+    <rutaProcesados>procesados\</rutaProcesados>
+    <inputHasHeaders>false</inputHasHeaders>
+	
+  <email></email>>
+  <enviromentType class="com.cloudco.sfdc.objects.EnviromentTypes">SANDBOX</enviromentType>
+  <mappings>
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>1</sourceColumn>
+      <destinationColumn>Sociedad__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Integer</destinationType>
+      <sourceColumn>2</sourceColumn>
+      <destinationColumn>Ano__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+	  <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>3</sourceColumn>
+      <destinationColumn>AnoAnadido__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>4</sourceColumn>
+      <destinationColumn>Producto__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>5</sourceColumn>
+      <destinationColumn>Subproducto__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>6</sourceColumn>
+      <destinationColumn>Canal__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>7</sourceColumn>
+      <destinationColumn>Fuerza_Comercial__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>8</sourceColumn>
+      <destinationColumn>Subdirecci_n__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>9</sourceColumn>
+      <destinationColumn>Ejecutivo__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>10</sourceColumn>
+      <destinationColumn>Tipo_de_Cuenta__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Integer</destinationType>
+      <sourceColumn>11</sourceColumn>
+      <destinationColumn>Referencia_CRM__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>12</sourceColumn>
+      <destinationColumn>Cliente__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>13</sourceColumn>
+      <destinationColumn>Raz_n_Social__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>14</sourceColumn>
+      <destinationColumn>Cliente_SAP__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>15</sourceColumn>
+      <destinationColumn>RFC__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>16</sourceColumn>
+      <destinationColumn>Zona__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>17</sourceColumn>
+      <destinationColumn>Tipo__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>18</sourceColumn>
+      <destinationColumn>Grada__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>19</sourceColumn>
+      <destinationColumn>Seccion__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Integer</destinationType>
+      <sourceColumn>20</sourceColumn>
+      <destinationColumn>Modulos__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Integer</destinationType>
+      <sourceColumn>21</sourceColumn>
+      <destinationColumn>PersonasXModulo__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Doublee</sourceType>
+      <destinationType>Integer</destinationType>
+      <sourceColumn>22</sourceColumn>
+      <destinationColumn>Cantidad__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Integer</destinationType>
+      <sourceColumn>23</sourceColumn>
+      <destinationColumn>Periodo_de_Devengo__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>24</sourceColumn>
+      <destinationColumn>PL_MNX__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>25</sourceColumn>
+      <destinationColumn>Precio__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>26</sourceColumn>
+      <destinationColumn>TC__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>27</sourceColumn>
+      <destinationColumn>Moneda__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>28</sourceColumn>
+      <destinationColumn>Monto_en_Pesos__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>29</sourceColumn>
+      <destinationColumn>Monto_USD__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>30</sourceColumn>
+      <destinationColumn>Periodo_Activo__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>31</sourceColumn>
+      <destinationColumn>NO_CONTRATO_CARPETA_P_FIN__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>32</sourceColumn>
+      <destinationColumn>Caja__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>33</sourceColumn>
+      <destinationColumn>A_o_Pago_Seg_n_Flujo__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Integer</destinationType>
+      <sourceColumn>34</sourceColumn>
+      <destinationColumn>Mes_Pago_Seg_n_Flujo__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>35</sourceColumn>
+      <destinationColumn>Semana_Seg_n_Flujo__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Date</sourceType>
+      <destinationType>Date</destinationType>
+      <sourceColumn>36</sourceColumn>
+      <destinationColumn>Fecha_de_Pago_Seg_n_Contrato__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Date</sourceType>
+      <destinationType>Date</destinationType>
+      <sourceColumn>37</sourceColumn>
+      <destinationColumn>Fecha_de_Pago_Proyectada__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>38</sourceColumn>
+      <destinationColumn>Monto__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>39</sourceColumn>
+      <destinationColumn>IVA__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>40</sourceColumn>
+      <destinationColumn>Monto_Total__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>41</sourceColumn>
+      <destinationColumn>AnoRealPago__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Integer</destinationType>
+      <sourceColumn>42</sourceColumn>
+      <destinationColumn>Mes_RealPago__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>43</sourceColumn>
+      <destinationColumn>Semana_Real_de_Pago__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Date</sourceType>
+      <destinationType>Date</destinationType>
+      <sourceColumn>44</sourceColumn>
+      <destinationColumn>Fecha_de_Pago_Real__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>45</sourceColumn>
+      <destinationColumn>Monto_Sin_Iva__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>46</sourceColumn>
+      <destinationColumn>IVA_Factura__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>47</sourceColumn>
+      <destinationColumn>Monto_Pagado__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>48</sourceColumn>
+      <destinationColumn>Tipo_de_Cambio__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>49</sourceColumn>
+      <destinationColumn>Monto_Pagado_Pesos_Sin_IVA__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>50</sourceColumn>
+      <destinationColumn>Monto_Pagado_Pesos__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>51</sourceColumn>
+      <destinationColumn>IVA_Cobrado__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>52</sourceColumn>
+      <destinationColumn>FolioFactura__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>53</sourceColumn>
+      <destinationColumn>Estatus__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>54</sourceColumn>
+      <destinationColumn>SaldoPorCobrarSinIVA__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>55</sourceColumn>
+      <destinationColumn>Saldo_por_Cobrar__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>56</sourceColumn>
+      <destinationColumn>Personas_Aforo__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>57</sourceColumn>
+      <destinationColumn>PersonasxMod__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>58</sourceColumn>
+      <destinationColumn>TKT_EXT__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>59</sourceColumn>
+      <destinationColumn>USD_ext__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>60</sourceColumn>
+      <destinationColumn>MXN_EXT__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>61</sourceColumn>
+      <destinationColumn>TC_para_USD__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>62</sourceColumn>
+      <destinationColumn>MEZCLA_MXN_USD_REAL__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>63</sourceColumn>
+      <destinationColumn>MEZCLA_MXN_USD_REAL_FLUJO__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>64</sourceColumn>
+      <destinationColumn>USD_PAGADO__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>65</sourceColumn>
+      <destinationColumn>USD_SOLO_PAGADO__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>66</sourceColumn>
+      <destinationColumn>MXN_CONTRATO__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>67</sourceColumn>
+      <destinationColumn>USD_CONTRATO__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>68</sourceColumn>
+      <destinationColumn>SoloTIX__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>69</sourceColumn>
+      <destinationColumn>Solo_MOD__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>70</sourceColumn>
+      <destinationColumn>Monto_Real__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>71</sourceColumn>
+      <destinationColumn>Monto_Real_FLUJO__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>72</sourceColumn>
+      <destinationColumn>IVA_FLUJO__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>73</sourceColumn>
+      <destinationColumn>Real_Flujo_con_IVA__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>Double</sourceType>
+      <destinationType>Double</destinationType>
+      <sourceColumn>74</sourceColumn>
+      <destinationColumn>DIF__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+
+    <com.cloudco.sfdc.objects.AttributeMapping>
+      <sourceType>String</sourceType>
+      <destinationType>String</destinationType>
+      <sourceColumn>75</sourceColumn>
+      <destinationColumn>NATUR_ING__c</destinationColumn>
+      <isLookup>false</isLookup>
+    </com.cloudco.sfdc.objects.AttributeMapping>
+  </mappings>
+</com.cloudco.sfdc.objects.Integracion>
